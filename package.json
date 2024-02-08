@@ -1,12 +1,14 @@
 {
   "name": "nlw-expert-notes",
+  "homepage": "https://Jeimissonb.github.io/NLW-expertNotes",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
